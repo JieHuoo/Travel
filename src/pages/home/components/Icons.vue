@@ -83,16 +83,18 @@ export default {
   .icons >>> .swiper-container
     height: 0
     padding-bottom: 55%
+  .icons
+    margin-top: .1rem
     .icon
       position: relative
       overflow: hidden
       float: left
       width: 25%
       height: 0
-      padding-bottom: 24%
+      padding-bottom: 23%
       .icon-img
         position: absolute
-        top: .1rem
+        top: 0
         left: 0
         right: 0
         bottom: .44rem
